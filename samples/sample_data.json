@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "people": [
+    {
+      "name": "Mom",
+      "birthday": { "month": 12, "day": 2 },
+      "renewals": [],
+      "address": "106 Birchwood Ln, Awenda, IN 47060",
+      "notes": "Prefers dark chocolate over any gift card."
+    },
+    {
+      "name": "Insurance renewal",
+      "birthday": null,
+      "renewals": [
+        { "type": "insurance", "label": "Home insurance", "month": 1, "day": 15, "lead_days": 30 }
+      ],
+      "address": null,
+      "notes": "Shop quotes two weeks early if possible."
+    },
+    {
+      "name": "Dad",
+      "birthday": { "month": 10, "day": 15 },
+      "renewals": [
+        { "type": "car", "label": "Car registration", "month": 3, "day": 1, "lead_days": 21 },
+        { "type": "warranty", "label": "Water heater warranty", "month": 5, "day": 11, "lead_days": 45 }
+      ],
+      "address": "106 Birchwood Ln, Awenda, IN 47060",
+      "notes": null
+    },
+    {
+      "name": "Leap-year cousin Riley",
+      "birthday": { "month": 2, "day": 29 },
+      "renewals": [],
+      "address": null,
+      "notes": "Feb 29 kid: gets Feb 28 off-years, Feb 29 when it counts."
+    }
+  ]
+}
